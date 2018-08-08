@@ -1,0 +1,4 @@
+FROM python:3.6-stretch
+WORKDIR /workspace
+ADD requirements-c7n-plus.txt /workspace/
+RUN pip install -r requirements-c7n-plus.txt

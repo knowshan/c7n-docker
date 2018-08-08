@@ -1,0 +1,5 @@
+awscli==1.15.53
+boto3==1.7.52
+c7n==0.8.28.2
+-e git+https://github.com/capitalone/cloud-custodian.git@616d23c2e378b4e8aa96bd3d0c92165e1b27d6d9#egg=c7n_mailer&subdirectory=tools/c7n_mailer
+pytest==3.6.3
